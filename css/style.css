@@ -11,11 +11,19 @@ html, body {
       font-family: Helvetica, Arial, sans-serif;
     }
 
+    .pharrel-header-subtitles-top {
+      font-size: 35px;
+    }
+
     .container {
       max-width: 940px;
       margin: 0 auto;
     }
 
+#call-to-action {
+  background-color: #000;
+  opacity: 0.8;
+}
     /* Main */
     .main {
       text-align: center;
@@ -58,14 +66,14 @@ html, body {
 
     /* Footer */
     .footer {
-      background-color: #d7b91d;
+      background-color: #ffd600;
       height: 600px;
       text-align: center;
     }
 
     .footer .container {
       position: relative;
-      top: 200px;
+      top: 5px;
     }
 
     .footer h2 {
