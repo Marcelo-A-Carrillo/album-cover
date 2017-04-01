@@ -11,36 +11,43 @@ html, body {
       font-family: Helvetica, Arial, sans-serif;
     }
 
-    .pharrel-header-subtitles-top {
-      font-size: 35px;
+    span {
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 25px;
+      color: #000;
+      margin: 10px 0 0 0;
     }
 
     .container {
-      max-width: 940px;
+      max-width: 500px;
       margin: 0 auto;
     }
 
-#call-to-action {
-  background-color: #000;
-  opacity: 0.8;
+    #call-to-action {
+     background-color: #ffd600;
+     opacity: 0.9;
 }
+
     /* Main */
     .main {
       text-align: center;
       background: url(../images/Pharrel-Williams.png) no-repeat center center;
       background-size: cover;
-      height: 600px;
+      height: 500px;
     }
 
     .main .container {
       position: relative;
-      top: 100px;
+      top: 0px;
+      left: -200px;
     }
 
     .main h1 {
-      color: #fff;
+      color: #000;
       margin: 0;
-      font-size: 150px;
+      font-size: 80px;
     }
 
     .main p {
@@ -49,10 +56,9 @@ html, body {
       font-size: 18px;
     }
 
-
-
     .clearfix {
       clear: both;
+      max-heigh:: 10px;
     }
 
 
@@ -61,8 +67,6 @@ html, body {
       margin: 0;
       font-size: 150px;
     }
-
-
 
     /* Footer */
     .footer {
@@ -89,15 +93,12 @@ html, body {
       font-size: 18px;
     }
 
-
-
-
     @media (min-width:600px) {
       .main h1 {
-        font-size: 200px;
+        font-size: 80px;
       }
 
     @media (min-width:600px) {
       .main h2 {
-        font-size: 200px;
+        font-size: 80px;
       }
