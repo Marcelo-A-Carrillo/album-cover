@@ -17,7 +17,12 @@ html, body {
       font-family: 'Oswald', sans-serif;
       text-transform: uppercase;
     }
-
+   a {
+     font-size: 20px;
+     text-decoration: none;
+     margin: 20px;
+     color: #000;
+   }
     .container {
       max-width: 800px;
       margin: 0 auto;
@@ -85,6 +90,12 @@ li {
       vertical-align: middle;
 }
 
+.sony-logo {
+      margin: 0 0 10px 0;
+      padding: 2px;
+      vertical-align: middle;
+}
+
 .companies-sites a {
   font-size: 50px;
   font-family: 'Oswald', sans-serif;
@@ -94,7 +105,7 @@ li {
     /* Footer */
     .footer {
       background-color: #ffd600;
-      height: 600px;
+      height: 800px;
       text-align: center;
     }
 
