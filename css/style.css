@@ -76,11 +76,17 @@ ul li {
 
 li {
   display: inline;
-    padding: 18px;
+    padding: 20px;
+}
+.sony-record-logo {
+
+      margin: 0 0 10px 0;
+      padding: 2px;
+      vertical-align: middle;
 }
 
 .companies-sites a {
-  font-size: 20px;
+  font-size: 50px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
