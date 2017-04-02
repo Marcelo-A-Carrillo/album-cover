@@ -8,20 +8,28 @@ html, body {
     }
 
     p {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
     }
 
-    .pharrel-header-subtitles-top {
-      font-size: 35px;
+    span {
+      font-size: 20px;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
     }
 
     .container {
-      max-width: 940px;
+      max-width: 800px;
       margin: 0 auto;
     }
 
 #call-to-action {
-  background-color: #000;
+  position: relative;
+  margin-left: 50px;
+  padding: 20px 20px;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: #ffd600;
   opacity: 0.8;
 }
     /* Main */
@@ -34,12 +42,12 @@ html, body {
 
     .main .container {
       position: relative;
-      top: 100px;
+      top: 0px;
     }
 
     .main h1 {
-      color: #fff;
-      margin: 0;
+      color: #000;
+      margin: 0px;
       font-size: 150px;
     }
 
@@ -49,12 +57,10 @@ html, body {
       font-size: 18px;
     }
 
-
-
     .clearfix {
       clear: both;
+      max-height: 10px;
     }
-
 
     .main h2 {
       color: #000;
@@ -62,7 +68,22 @@ html, body {
       font-size: 150px;
     }
 
+ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
+li {
+  display: inline;
+    padding: 18px;
+}
+
+.companies-sites a {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
 
     /* Footer */
     .footer {
@@ -90,12 +111,13 @@ html, body {
     }
 
 
-    @media (min-width:600px) {
+    @media (min-width:800px) {
       .main h1 {
-        font-size: 200px;
+        margin-top: -20px;
+        font-size: 100px;
       }
 
-    @media (min-width:600px) {
+    @media (min-width:800px) {
       .main h2 {
-        font-size: 200px;
+        font-size: 100px;
       }
