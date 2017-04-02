@@ -158,10 +158,10 @@ li {
     @media (min-width:800px) {
       .main h1 {
         margin-top: -20px;
-        font-size: 100px;
+        font-size: 78px;
       }
 
     @media (min-width:800px) {
       .main h2 {
-        font-size: 100px;
+        font-size: 78px;
       }
